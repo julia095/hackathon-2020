@@ -1,0 +1,39 @@
+{
+  "name": "applitools-2020",
+  "version": "1.0.0",
+  "description": "applitools hackathon 2020",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "@applitools/eyes-testcafe": "^1.11.1",
+    "dotenv": "^8.2.0",
+    "testcafe": "^1.8.8"
+  },
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-testcafe": "^0.2.1"
+  },
+  "scripts": {
+    "test:part1": "testcafe chrome ./tests/part1.js",
+    "test:part2": "testcafe chrome ./tests/part2.js",
+    "test:part3": "testcafe chrome ./tests/part3.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julia095/applitools-2020.git"
+  },
+  "keywords": [
+    "applitools",
+    "testcafe"
+  ],
+  "author": "Yulia Tekin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julia095/applitools-2020/issues"
+  },
+  "homepage": "https://github.com/julia095/applitools-2020#readme"
+}

@@ -1,0 +1,5 @@
+{
+    "v1Prod" : "https://demo.applitools.com/tlcHackathonMasterV1.html",
+    "devBranch" : "https://demo.applitools.com/tlcHackathonDev.html",
+    "finalProd": "https://demo.applitools.com/tlcHackathonMasterV2.html"
+}
